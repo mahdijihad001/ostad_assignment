@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.container{
+    background-color:  #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;margin: 0 auto;
+    height: 100vh;
+}
+
+.profile_card{
+    width: 280px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.card_heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/* .top_heading{
+    background-color: #898989;
+    text-align: left;
+    width: 35px;
+    padding: 4px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #ffffff;
+}
+*/
+.profile_card img{ 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.card_heading h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2f2f2f;
+}
+.card_heading h3{
+    text-align: center;
+    font-weight: 600;
+    color: #717171;
+    margin-bottom: 15px;
+}
+.top_heading p{
+    /* text-align: justify; */
+    margin-top: 20px;
+}
+
+
+.bio{
+    font-size: 20px;
+    font-weight: 700;
+    color: #4e4d4d;
+}
+.frontend{
+    font-size: 15px;
+    color: #717171;
+}
+.backend{
+    font-size: 15px;
+    color: #717171;
+}
+.Contact{
+    font-weight: 700;
+    color: #4e4d4d;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.email{
+    font-size: 15px;
+    color: #717171;
+
+}
+.numbar{
+    font-size: 15px;
+    color: #717171;
+}
