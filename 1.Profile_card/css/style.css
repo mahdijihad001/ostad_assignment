@@ -66,12 +66,6 @@
     margin-top: 20px;
 }
 
-
-.bio{
-    font-size: 20px;
-    font-weight: 700;
-    color: #4e4d4d;
-}
 .frontend{
     font-size: 15px;
     color: #717171;
@@ -79,12 +73,6 @@
 .backend{
     font-size: 15px;
     color: #717171;
-}
-.Contact{
-    font-weight: 700;
-    color: #4e4d4d;
-    font-size: 20px;
-    margin-bottom: 5px;
 }
 .email{
     font-size: 15px;
